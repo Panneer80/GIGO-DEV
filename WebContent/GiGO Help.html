@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="myImages/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="myStyle/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="myStyle/gigo_home.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="myScripts/html5shiv.js"></script>
+      <script src="myScripts/respond.min.js"></script>
+    <![endif]-->
+ 
+<title>GiGo Help</title>
+
+</head>
+
+<body lang=EN-US>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="gigo_home.jsp">Welcome to GiGo</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="gigo_home.jsp">Home</a></li>
+            
+            
+            <li ><a href="GiGO Help.html">Help</a></li>
+            <li ><a href="/GIGO-DEV">Logout</a></li>
+            </ul>
+          
+        </div><!--/.nav-collapse -->
+      </div>
+
+<div class="container">
+<div class=WordSection1>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:115%'>Search
+with Ticket number:</span></b><span style='font-size:14.0pt;line-height:115%'> </span>Used
+to see the transactions related to a single ticket (Remedy ID OR SNOW ID). <img
+width=624 height=275 id="Picture 1" src="GiGO%20Help_files/image001.jpg"></p>
+
+<p class=MsoNormal>Enter the ticket number and search. It lists all the
+transactions related to that ticket.</p>
+
+<p class=MsoNormal><img width=723 height=173 id="Picture 2"
+src="GiGO%20Help_files/image002.jpg"></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i>ETWIC –
+External to Wipro ticket creation (ie. Snow to Remedy)</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i>WTEIC -
+Wipro to External ticket Creation (ie. Remedy to Snow)</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i>ETWIU-
+External to Wipro ticket Updating</i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i>WTEIU -
+Wipro to External ticket Updating</i></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>If the WIP_TICKET_ID is available with <i>create_success</i>
+status, that means type 3 received. If not found Type 3 not received.</p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="50%"
+ style='width:50.0%'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>CUSTOMER</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>WIP_TICKET_ID</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>CST_TICKET_ID</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>GATEWAY_ID</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>TR_DATE</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>TICKET_STATUS</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>TR_DIRECTION</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif"'>ERROR_LOG</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Carillion</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>INC000002182185</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>INC0000036807</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>CARI_2985_INC0000036807</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>2014-06-25</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>create_success</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>ETWIC</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>null</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;line-height:115%'>Search
+using date range:</span></b><span style='font-size:14.0pt;line-height:115%'> </span>Used
+to see the failed transactions for a given date range.</p>
+
+<p class=MsoNormal><img width=690 height=305 id="Picture 3"
+src="GiGO%20Help_files/image003.png"></p>
+
+<p class=MsoNormal>Enter the date range and search. </p>
+
+<p class=MsoNormal><img width=719 height=219 id="Picture 4"
+src="GiGO%20Help_files/image004.jpg"></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:13.5pt;line-height:115%;color:black'>ERROR_LOG column shows
+the data received from Remedy or Snow based on the direction. Also it has the
+error response received from Remedy or SNOW.</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="50%"
+ style='width:50.0%'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:#365F91'>assignee_login_id~assignment_group~case_type~category~contact_type~customer_id~customer_enduserlogin~impact~number~priority~incident_state~remedy_category~requesterrecordsubtype~subcategory~third_party~urgency~Opened~transaction_type~due_date~snow_sys_id~customer_firstname~customer_lastname~work_around~RootCause~assignee~target_resolution_date~description~short_description~group_identifier</span><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif"'>|<span
+  style='color:#9BBB59'>~ServiceDesk_Offshore~incident~Access~~INC000002104199~cal86m13~3~INC0000001334~3~1~~~Application
+  Administration~~1~2014-06-04 22:52:17~6~~d56d42eea145a50011a488c7bf2362b0~~~~~~~%22Requestor%20Details%3AMichael%20Calder%20%7C%20Michael.Calder%40carillionplc.com%20%7C44%2007730429666%0D%0ASummary%3AService%20req%20%3A%20Oracle%20access%20request%0D%0ADetailed%20Description%3AService%20req%20%3A%20Oracle%20access%20request%0D%0ALocation%3AManchester%20Pme%0D%0AReported%20Date%3A%2003%2F06%2F2014%22~Oracle%20access%20request~Support~259286843</span>;;soapenv:Server.<span
+  style='color:red'>userExceptionERROR (1291053): ; The Asssigned Group fields
+  are invalid. Use the menus for the Support Company, Support Organization,
+  Assigned Group, and Assignee fields or the type ahead return function on the
+  Assigned Group or Assignee fields to select this information.BLRPVMIDAPP04</span></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>In this
+above log, <span style='color:#365F91'>text marked in blue are field names
+received from Remedy or SNOW.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>, <span
+style='color:#9BBB59'>text marked in green are field values received from
+Remedy or SNOW</span>.</p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='color:red'>, text marked in blue are error response from Remedy or SNOW.</span></p>
+
+</div>
+</div>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="myScripts/jquery-2.1.1.min.js"></script>
+    <script src="myScripts/bootstrap.min.js"></script>
+    <script>    
+    
+    </script>
+</body>
+
+</html>

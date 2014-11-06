@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel=stylesheet href=myStyle/style1.css>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>GIGO</title>
+<!--[if lt IE 9]>
+<script src="myScripts/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class=wrapper_main>
+<div class=header_group>
+<div class=title_group>
+	<header>
+		<h1 align="center"> GiGo </h1>
+		<h5 align="center"> Welcome to GiGo  - B2B transaction tracking</h5>
+	</header>
+</div>
+<div class=nav_group>
+<nav>
+    <ul>
+      <li><a href="/gigo_home.html">Demo</a>
+        <ul>
+            <li><a href="/self_service.html">Self Service</a></li>
+            
+        </ul>
+      </li>
+      <li><a href="/products">Links</a>
+        <ul>
+            <li><a href="/hpoo">HPOO</a></li>
+            <li><a href="/hpbsm">HP BSM</a></li>
+        </ul>
+      </li>
+     </ul>
+</nav>
+</div>
+</div>
+<h6 align="center"> 
+This web application is created to help teams to search transactions in B2B. Contact: panneer.selvam@wipro.com
+</h6>
+<br />
+<section class = s1>
+<div class = t1>
+<h4>Search with ticket number</h4>
+</div>
+<form action="getLogs">  
+Ticket number:<input type="text" name="incident"/> 
+<br />
+<div>
+System :  &nbsp;&nbsp;&nbsp;&nbsp;
+<select name ="environ1">
+  <option value="prod">PROD</option>
+  <option value="uat">UAT</option>
+</select>
+</div>
+<div class = sb1> 
+<input type="submit" value="GiGo"/>
+</div> 
+<div class = help1>
+<blink>Use any of these: Wipro Ticket # | Customer Ticket # | Gateway ID</blink>
+</div>
+</form>
+</section>
+<section class = s2>
+<div class = t2>
+<h4>Search using date range</h4>
+</div>
+<form action="getbydate"> 
+<div>
+Start Date: <input type="date" name="sdate">
+</div><div>
+End Date:&nbsp;&nbsp; <input type="date" name="edate">
+</div>
+<div>
+System:&nbsp;
+<select name ="environ2" >
+  <option value="prod1">PROD</option>
+  <option value="uat1">UAT</option>
+</select>
+</div>
+<div class = sb2>
+<input type = "submit" value="GiGo"/>
+</div>
+<div class = help2>
+<blink>Lists only failed transactions. Limited to 2000 records.</blink>
+</div>
+</form>
+</section>
+<section class = video>
+<div>
+<video width= "320px" height= "240px" controls= "controls" >
+<source src= "myMultimedia/What makes us feel good about our work.mp4" />
+</video>
+</div>
+</section>
+<footer>
+
+</footer>
+</div>
+</body>
+</html>
